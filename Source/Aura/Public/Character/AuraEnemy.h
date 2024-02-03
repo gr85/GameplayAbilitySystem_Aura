@@ -18,7 +18,13 @@ class AURA_API AAuraEnemy : public AAuraCharacterBase, public IEnemyInterface
 public:
 	// Constructor
 	AAuraEnemy();
+
+	/** Enemy Interface */
 	// override -> means that we are implementing the abstract function
 	virtual void HighlightActor() override;
 	virtual void UnHighlightActor() override;
+	/** end Enemy Interface*/
+
+protected:
+	virtual void BeginPlay() override;
 };
