@@ -30,7 +30,7 @@
 					"Aura",
 					"Win64",
 					"Debug",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -47,7 +47,7 @@
 					"Aura",
 					"Win64",
 					"Debug",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -67,7 +67,7 @@
 					"Aura",
 					"Win64",
 					"Debug",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -84,7 +84,7 @@
 					"Aura",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -101,7 +101,7 @@
 					"Aura",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -121,7 +121,7 @@
 					"Aura",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -138,7 +138,7 @@
 					"Aura",
 					"Win64",
 					"Development",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -155,7 +155,7 @@
 					"Aura",
 					"Win64",
 					"Development",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -175,7 +175,7 @@
 					"Aura",
 					"Win64",
 					"Development",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -192,7 +192,7 @@
 					"Aura",
 					"Win64",
 					"Test",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -209,7 +209,7 @@
 					"Aura",
 					"Win64",
 					"Test",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -229,7 +229,7 @@
 					"Aura",
 					"Win64",
 					"Test",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -246,7 +246,7 @@
 					"Aura",
 					"Win64",
 					"Shipping",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -263,7 +263,7 @@
 					"Aura",
 					"Win64",
 					"Shipping",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -283,7 +283,7 @@
 					"Aura",
 					"Win64",
 					"Shipping",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -300,7 +300,7 @@
 					"Aura",
 					"IOS",
 					"Debug",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -317,7 +317,7 @@
 					"Aura",
 					"IOS",
 					"Debug",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -337,7 +337,7 @@
 					"Aura",
 					"IOS",
 					"Debug",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -354,7 +354,7 @@
 					"Aura",
 					"IOS",
 					"DebugGame",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -371,7 +371,7 @@
 					"Aura",
 					"IOS",
 					"DebugGame",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -391,7 +391,7 @@
 					"Aura",
 					"IOS",
 					"DebugGame",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -408,7 +408,7 @@
 					"Aura",
 					"IOS",
 					"Development",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -425,7 +425,7 @@
 					"Aura",
 					"IOS",
 					"Development",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -445,7 +445,7 @@
 					"Aura",
 					"IOS",
 					"Development",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -462,7 +462,7 @@
 					"Aura",
 					"IOS",
 					"Test",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -479,7 +479,7 @@
 					"Aura",
 					"IOS",
 					"Test",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -499,7 +499,7 @@
 					"Aura",
 					"IOS",
 					"Test",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -516,7 +516,7 @@
 					"Aura",
 					"IOS",
 					"Shipping",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -533,7 +533,7 @@
 					"Aura",
 					"IOS",
 					"Shipping",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -553,7 +553,7 @@
 					"Aura",
 					"IOS",
 					"Shipping",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -570,7 +570,7 @@
 					"AuraEditor",
 					"Win64",
 					"Debug",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -587,7 +587,7 @@
 					"AuraEditor",
 					"Win64",
 					"Debug",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -607,7 +607,7 @@
 					"AuraEditor",
 					"Win64",
 					"Debug",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -624,7 +624,7 @@
 					"AuraEditor",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -641,7 +641,7 @@
 					"AuraEditor",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -661,7 +661,7 @@
 					"AuraEditor",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -678,7 +678,7 @@
 					"AuraEditor",
 					"Win64",
 					"Development",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -695,7 +695,7 @@
 					"AuraEditor",
 					"Win64",
 					"Development",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -715,7 +715,7 @@
 					"AuraEditor",
 					"Win64",
 					"Development",
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -732,7 +732,7 @@
 			{
 				"name": "Launch Aura (Debug)",
 				"request": "launch",
-				"program": "C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"program": "F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
 				"preLaunchTask": "Aura Win64 Debug Build",
 				"args": [
 				],
@@ -748,7 +748,7 @@
 			{
 				"name": "Launch Aura (DebugGame)",
 				"request": "launch",
-				"program": "C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"program": "F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
 				"preLaunchTask": "Aura Win64 DebugGame Build",
 				"args": [
 				],
@@ -764,7 +764,7 @@
 			{
 				"name": "Launch Aura (Development)",
 				"request": "launch",
-				"program": "C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Binaries\\Win64\\UnrealGame.exe",
+				"program": "F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Binaries\\Win64\\UnrealGame.exe",
 				"preLaunchTask": "Aura Win64 Development Build",
 				"args": [
 				],
@@ -780,7 +780,7 @@
 			{
 				"name": "Launch Aura (Test)",
 				"request": "launch",
-				"program": "C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"program": "F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
 				"preLaunchTask": "Aura Win64 Test Build",
 				"args": [
 				],
@@ -796,7 +796,7 @@
 			{
 				"name": "Launch Aura (Shipping)",
 				"request": "launch",
-				"program": "C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"program": "F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
 				"preLaunchTask": "Aura Win64 Shipping Build",
 				"args": [
 				],
@@ -815,7 +815,7 @@
 				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
 				"preLaunchTask": "AuraEditor Win64 Debug Build",
 				"args": [
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject"
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject"
 				],
 				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
 				"stopAtEntry": false,
@@ -832,7 +832,7 @@
 				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
 				"preLaunchTask": "AuraEditor Win64 DebugGame Build",
 				"args": [
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject"
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject"
 				],
 				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
 				"stopAtEntry": false,
@@ -849,7 +849,7 @@
 				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
 				"preLaunchTask": "AuraEditor Win64 Development Build",
 				"args": [
-					"C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject"
+					"F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject"
 				],
 				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
 				"stopAtEntry": false,
@@ -869,7 +869,7 @@
 				"args": [
 					"-projectfiles",
 					"-vscode",
-					"-project=C:\\Users\\PC\\Documents\\Gaming\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
+					"-project=F:\\Udemy\\Unreal Engine 5 - Top Down RPG\\Aura\\Aura.uproject",
 					"-game",
 					"-engine",
 					"-dotnet"
