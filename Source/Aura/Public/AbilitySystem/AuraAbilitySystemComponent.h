@@ -30,7 +30,10 @@ public:
 	
 protected:
 
-	void EffectApplied(UAbilitySystemComponent* AbilitySystemComponent, const FGameplayEffectSpec& EffectSpec, 
+	// Client RPC
+	// Without this decoration it is only called on server side
+	UFUNCTION(Client, Reliable)
+	void ClientEffectApplied(UAbilitySystemComponent* AbilitySystemComponent, const FGameplayEffectSpec& EffectSpec, 
 		FActiveGameplayEffectHandle ActiveEffectHandle);
 
 
