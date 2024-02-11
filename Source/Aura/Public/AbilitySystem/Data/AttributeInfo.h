@@ -9,7 +9,7 @@
 
 
 USTRUCT(BlueprintType)
-struct FAuarAttributeInfo
+struct FAuraAttributeInfo
 {
 	GENERATED_BODY()
 
@@ -35,8 +35,8 @@ class AURA_API UAttributeInfo : public UDataAsset
 	GENERATED_BODY()
 	
 public:
-	FAuarAttributeInfo FindAttributeInfoForTag(const FGameplayTag& AttributeTag, bool bLogNotFound = false) const;
+	FAuraAttributeInfo FindAttributeInfoForTag(const FGameplayTag& AttributeTag, bool bLogNotFound = false) const;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-	TArray<FAuarAttributeInfo> AttributeInformation;
+	TArray<FAuraAttributeInfo> AttributeInformation;
 };
