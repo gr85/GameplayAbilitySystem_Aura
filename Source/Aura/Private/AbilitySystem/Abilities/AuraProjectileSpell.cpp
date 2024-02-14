@@ -10,17 +10,26 @@ void UAuraProjectileSpell::ActivateAbility(const FGameplayAbilitySpecHandle Hand
 {
     Super::ActivateAbility(Handle, ActorInfo, ActivationInfo, TriggerEventData);
 
+    
+}
+
+void UAuraProjectileSpell::SpawnProjectile(const FVector& ProjectileTargetLocation)
+{
     // Spawn the projectile only on the server. It will be replicated to owning client
-    const bool bIsServer = HasAuthority(&ActivationInfo);
+    const bool bIsServer = GetAvatarActorFromActorInfo()->HasAuthority();
     if (!bIsServer) return;
 
     ICombatInterface* CombatInterface = Cast<ICombatInterface>(GetAvatarActorFromActorInfo());
     if (CombatInterface)
     {
         const FVector SocketLocation = CombatInterface->GetCombatSocketLocation();
+        FRotator Rotation = (ProjectileTargetLocation - SocketLocation).Rotation();
+        // Set this to allow projectiles fly parallel to the ground
+        Rotation.Pitch = 0.f;
+
         FTransform SpawnTransform;
         SpawnTransform.SetLocation(SocketLocation);
-        // TODO: Set Projectile Rotation
+        SpawnTransform.SetRotation(Rotation.Quaternion());
 
         AAuraProjectile* Projectile = GetWorld()->SpawnActorDeferred<AAuraProjectile>(ProjectileClass, SpawnTransform, GetOwningActorFromActorInfo(), 
             Cast<APawn>(GetOwningActorFromActorInfo()), ESpawnActorCollisionHandlingMethod::AlwaysSpawn);
@@ -29,6 +38,4 @@ void UAuraProjectileSpell::ActivateAbility(const FGameplayAbilitySpecHandle Hand
 
         Projectile->FinishSpawning(SpawnTransform);
     }
-
-    
 }
