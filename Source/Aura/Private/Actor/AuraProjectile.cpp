@@ -8,6 +8,8 @@
 #include "NiagaraFunctionLibrary.h"
 #include "Components/AudioComponent.h"
 #include "Aura/Aura.h"
+#include "AbilitySystemBlueprintLibrary.h"
+#include "AbilitySystemComponent.h"
 
 // Sets default values
 AAuraProjectile::AAuraProjectile()
@@ -51,10 +53,15 @@ void AAuraProjectile::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, 
 	LoopingSoundComponent->Stop();
 
 	/**
-	 * Check if we are in the server to destroy the projectile
+	 * Check if we are in the server to destroy the projectile and add the gameplay effect (Subtract health)
 	*/
 	if (HasAuthority())
 	{
+		if (UAbilitySystemComponent* TargetASC = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(OtherActor))
+		{
+			TargetASC->ApplyGameplayEffectSpecToSelf(*DamageEffectSpedHandle.Data.Get());
+		}
+
 		Destroy();
 	}
 	else
