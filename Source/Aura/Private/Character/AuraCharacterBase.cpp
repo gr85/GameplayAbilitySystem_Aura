@@ -37,7 +37,7 @@ UAnimMontage* AAuraCharacterBase::GetHitReactMontage_Implementation()
 }
 
 // Called when the game starts or when spawned
-void AAuraCharacterBase::BeginPlay()
+void AAuraCharacterBase::BeginPlay() 
 {
 	Super::BeginPlay();
 	
@@ -77,4 +77,29 @@ void AAuraCharacterBase::AddCharacterAbilities()
 	if (!HasAuthority()) return;
 
 	AuraASC->AddCharacterAbilities(StartupAbilities);
+}
+
+/**
+ * Only Called in the server
+*/
+void AAuraCharacterBase::Die()
+{
+	// First we drop the weapon. Only happens in the server
+	Weapon->DetachFromComponent(FDetachmentTransformRules(EDetachmentRule::KeepWorld, true));
+	MulticastHanldeDeath_Implementation();
+}
+
+// _Implementation is necessary when implementing RPC
+void AAuraCharacterBase::MulticastHanldeDeath_Implementation()
+{
+	Weapon->SetSimulatePhysics(true);
+	Weapon->SetEnableGravity(true);
+	Weapon->SetCollisionEnabled(ECollisionEnabled::PhysicsOnly);
+
+	GetMesh()->SetSimulatePhysics(true);
+	GetMesh()->SetEnableGravity(true);
+	GetMesh()->SetCollisionEnabled(ECollisionEnabled::PhysicsOnly);
+	GetMesh()->SetCollisionResponseToChannel(ECC_WorldStatic, ECR_Block);
+
+	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 }

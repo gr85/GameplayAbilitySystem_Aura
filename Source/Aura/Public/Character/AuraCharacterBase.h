@@ -29,6 +29,13 @@ public:
 
 	virtual UAnimMontage* GetHitReactMontage_Implementation() override;
 
+	// We only call Die on the server
+	virtual void Die() override;
+
+	// Add RPC multicast to support client side
+	UFUNCTION(NetMulticast, Reliable)
+	virtual void MulticastHanldeDeath();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
