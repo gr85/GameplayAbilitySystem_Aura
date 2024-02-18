@@ -34,12 +34,27 @@ void UAuraProjectileSpell::SpawnProjectile(const FVector& ProjectileTargetLocati
         SpawnTransform.SetLocation(SocketLocation);
         SpawnTransform.SetRotation(Rotation.Quaternion());
 
-        AAuraProjectile* Projectile = GetWorld()->SpawnActorDeferred<AAuraProjectile>(ProjectileClass, SpawnTransform, GetOwningActorFromActorInfo(), 
-            Cast<APawn>(GetOwningActorFromActorInfo()), ESpawnActorCollisionHandlingMethod::AlwaysSpawn);
+        AAuraProjectile* Projectile = GetWorld()->SpawnActorDeferred<AAuraProjectile>(
+            ProjectileClass, 
+            SpawnTransform, 
+            GetOwningActorFromActorInfo(), 
+            Cast<APawn>(GetOwningActorFromActorInfo()),
+            ESpawnActorCollisionHandlingMethod::AlwaysSpawn);
         
         // Give the Projectile a Gameplay Effect Spec for causing Damage.
         const UAbilitySystemComponent* SourceASC = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(GetAvatarActorFromActorInfo());
-        const FGameplayEffectSpecHandle SpecHandle = SourceASC->MakeOutgoingSpec(DamageEffectClass, GetAbilityLevel(), SourceASC->MakeEffectContext());
+        // Create Context
+        FGameplayEffectContextHandle EffectContextHandle = SourceASC->MakeEffectContext();
+        EffectContextHandle.SetAbility(this);
+        EffectContextHandle.AddSourceObject(Projectile);
+        TArray<TWeakObjectPtr<AActor>> Actors;
+        Actors.Add(Projectile);
+        EffectContextHandle.AddActors(Actors);
+        FHitResult HitResult;
+        HitResult.Location = ProjectileTargetLocation;
+        EffectContextHandle.AddHitResult(HitResult);
+
+        const FGameplayEffectSpecHandle SpecHandle = SourceASC->MakeOutgoingSpec(DamageEffectClass, GetAbilityLevel(), EffectContextHandle);
 
         /**
          * Begin setup properties to use "Set by Caller" gameplay effect option
