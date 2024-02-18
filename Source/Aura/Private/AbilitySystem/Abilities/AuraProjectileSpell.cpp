@@ -60,8 +60,11 @@ void UAuraProjectileSpell::SpawnProjectile(const FVector& ProjectileTargetLocati
          * Begin setup properties to use "Set by Caller" gameplay effect option
         */
         const FAuraGameplayTags GameplayTags = FAuraGameplayTags::Get();
-        const float ScaledDamage = Damage.GetValueAtLevel(GetAbilityLevel());
-        UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.Damage, ScaledDamage);
+        for (auto& Pair : DamageTypes)
+        {
+            const float ScaledDamage = Pair.Value.GetValueAtLevel(GetAbilityLevel());
+            UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, Pair.Key, ScaledDamage);
+        }        
         /** END SETUP*/
 
         Projectile->DamageEffectSpedHandle = SpecHandle;
