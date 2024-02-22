@@ -27,14 +27,22 @@ public:
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 	UAttributeSet* GetAttributeSet() const { return AttributeSet; }
 
-	virtual UAnimMontage* GetHitReactMontage_Implementation() override;
-
+	/** Combat Interface */
 	// We only call Die on the server
+	virtual UAnimMontage* GetHitReactMontage_Implementation() override;
 	virtual void Die() override;
-
+	virtual FVector GetCombatSocketLocation_Implementation(const FGameplayTag& MontageTag) override;
+	virtual bool IsDead_Implementation() const override;
+	virtual AActor* GetAvatar_Implementation() override;
+	virtual TArray<FTaggedMontage> GetAttackMontages_Implementation() override;
+	/**end Combat Interface*/
+	
 	// Add RPC multicast to support client side
 	UFUNCTION(NetMulticast, Reliable)
 	virtual void MulticastHanldeDeath();
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	TArray<FTaggedMontage> AttackMontages;
 
 protected:
 	// Called when the game starts or when spawned
@@ -47,9 +55,13 @@ protected:
 	TObjectPtr<USkeletalMeshComponent> Weapon;
 
 	UPROPERTY(EditAnywhere, Category = "Combat")
-	FName WeaponTipSocketName;
+	FName WeaponTipSocketName;	
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	FName LeftHandTipSocketName;
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	FName RightHandTipSocketName;
 
-	virtual FVector GetCombatSocketLocation() override;
+	bool bDead = false;
 
 	UPROPERTY()
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
