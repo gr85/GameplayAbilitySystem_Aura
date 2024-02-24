@@ -51,7 +51,7 @@ protected:
 	virtual void InitAbilityActorInfo();
 
 	// Object pointer for weapon mesh
-	UPROPERTY(EditAnywhere, Category = "Combat")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Combat")
 	TObjectPtr<USkeletalMeshComponent> Weapon;
 
 	UPROPERTY(EditAnywhere, Category = "Combat")

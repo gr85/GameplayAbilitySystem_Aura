@@ -16,6 +16,7 @@ void UAuraProjectileSpell::ActivateAbility(const FGameplayAbilitySpecHandle Hand
     
 }
 
+/** Change to pass a tag for socket location if we want to spawn from a hand */
 void UAuraProjectileSpell::SpawnProjectile(const FVector& ProjectileTargetLocation)
 {
     // Spawn the projectile only on the server. It will be replicated to owning client
