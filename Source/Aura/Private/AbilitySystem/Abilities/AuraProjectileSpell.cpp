@@ -17,7 +17,7 @@ void UAuraProjectileSpell::ActivateAbility(const FGameplayAbilitySpecHandle Hand
 }
 
 /** Change to pass a tag for socket location if we want to spawn from a hand */
-void UAuraProjectileSpell::SpawnProjectile(const FVector& ProjectileTargetLocation)
+void UAuraProjectileSpell::SpawnProjectile(const FVector& ProjectileTargetLocation, const FGameplayTag& SocketTag)
 {
     // Spawn the projectile only on the server. It will be replicated to owning client
     const bool bIsServer = GetAvatarActorFromActorInfo()->HasAuthority();
@@ -25,7 +25,7 @@ void UAuraProjectileSpell::SpawnProjectile(const FVector& ProjectileTargetLocati
        
     const FVector SocketLocation = ICombatInterface::Execute_GetCombatSocketLocation(
         GetAvatarActorFromActorInfo(),
-        FAuraGameplayTags::Get().CombatSocket_Weapon);
+        SocketTag);
     FRotator Rotation = (ProjectileTargetLocation - SocketLocation).Rotation();
 
     FTransform SpawnTransform;

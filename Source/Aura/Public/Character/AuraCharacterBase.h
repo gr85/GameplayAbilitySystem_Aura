@@ -63,6 +63,8 @@ protected:
 	FName LeftHandTipSocketName;
 	UPROPERTY(EditAnywhere, Category = "Combat")
 	FName RightHandTipSocketName;
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	FName TailSocketName;
 
 	bool bDead = false;
 
