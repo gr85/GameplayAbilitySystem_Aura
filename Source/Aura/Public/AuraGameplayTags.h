@@ -59,6 +59,11 @@ public:
 	FGameplayTag CombatSocket_RightHand;
 	FGameplayTag CombatSocket_LeftHand;
 
+	FGameplayTag Montage_Attack_1;
+	FGameplayTag Montage_Attack_2;
+	FGameplayTag Montage_Attack_3;
+	FGameplayTag Montage_Attack_4;
+
 	TMap<FGameplayTag, FGameplayTag> DamageTypesResistance;
 
 	FGameplayTag Effects_HitReact;
