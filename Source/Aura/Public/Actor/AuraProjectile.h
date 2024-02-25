@@ -39,13 +39,14 @@ protected:
 	// although the server has been destroyed the object
 	virtual void Destroyed() override;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	TObjectPtr<USphereComponent> Sphere;
+
 private:
 	UPROPERTY(EditDefaultsOnly)
 	float LifeSpan = 5.f;
 
-	UPROPERTY(VisibleAnywhere)
-	TObjectPtr<USphereComponent> Sphere;
-
+	
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UNiagaraSystem> ImpactEffect;
 
