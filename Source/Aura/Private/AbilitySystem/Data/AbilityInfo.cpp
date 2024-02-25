@@ -2,6 +2,7 @@
 
 
 #include "AbilitySystem/Data/AbilityInfo.h"
+#include "Aura/AuraLogChannel.h"
 
 FAuraAbilityInfo UAbilityInfo::FindAbilityInfoForTag(const FGameplayTag& AbilityTag, bool bLogNotFound) const
 {
@@ -15,7 +16,7 @@ FAuraAbilityInfo UAbilityInfo::FindAbilityInfoForTag(const FGameplayTag& Ability
 
 	if (bLogNotFound)
 	{
-		//UE_LOG(LogTemp, )
+		UE_LOG(LogAura, Error, TEXT("Can't find info for AbilityTag [%s] on AbilityInfo [%s]"), *AbilityTag.ToString(), *GetNameSafe(this));
 	}
 
 	return FAuraAbilityInfo();
