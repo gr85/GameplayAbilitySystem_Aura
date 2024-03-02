@@ -109,6 +109,11 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
         FString("Damage")
         );
 
+    GameplayTags.Attributes_Meta_IncomingXP = UGameplayTagsManager::Get().AddNativeGameplayTag(
+        FName("Attributes.Meta.IncomingXP"),
+        FString("Incoming XP Attribute Tag")
+    );
+
     /**
     * Damage Types
     */
