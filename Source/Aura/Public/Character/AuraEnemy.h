@@ -34,7 +34,7 @@ public:
 	/** end Enemy Interface*/
 
 	/** Combat Interface */
-	virtual int32 GetPlayerLevel() override;
+	virtual int32 GetPlayerLevel_Implementation() override;
 	// We only call Die on the server
 	virtual void Die() override;
 	virtual void SetCombatTarget_Implementation(AActor* InCombatTarget) override;
